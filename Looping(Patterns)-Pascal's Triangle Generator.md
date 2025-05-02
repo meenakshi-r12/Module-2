@@ -1,45 +1,31 @@
-# 🔺 Looping(Patterns)-Pascal's Triangle Generator in Python
+# Ex-2D LOOPING
+##  Aim
+To print a right-angled triangle pattern of numbers, where each row contains numbers in increasing order starting from 1.
+## Algorithm
+. Read the number of rows from the user and store it in the variable "num_rows".
 
-This project demonstrates a simple Python program to generate **Pascal’s Triangle**, where the number of rows is provided by the user.
+2. Start an outer for loop to iterate from 1 to "num_rows" (inclusive):
+   a. Let the current iteration variable be "i".
+   b. For each "i", start an inner for loop to iterate from 1 to "i" (inclusive):
+      i. Let the inner iteration variable be "j".
+      ii. Print the value of "j", followed by a space, without moving to a new line.
+   c. After completing the inner loop, move to the next line by using "print()".
 
----
-
-## 🎯 Aim
-
-To write a Python program that generates **Pascal's Triangle** using numbers. The number of rows is accepted from the user.
-
----
-
-## 🧠 Algorithm
-
-1. Start the program.
-2. Input the number of rows from the user.
-3. Loop from 0 to the number of rows.
-4. For each row:
-   - Print appropriate spaces to shape the triangle.
-   - Compute values using the formula:  
-     \[
-     C(n, k) = \frac{n!}{k!(n-k)!}
-     \]
-5. Print all rows of Pascal’s Triangle.
-6. End the program.
-
----
-
+3. End of the program.
 ## 🧪 Program
 ```
-import math
-r=int(input())
-for i in range(r):
-    print(' '*(r-i),end='')
-    for j in range(i+1):
-        v=math.comb(i,j)
-        print(v,end='')
-    print()
+num_rows = int(input())
+
+for i in range(1, num_rows + 1):
+
+    for j in range(1, i + 1):
+
+        print(j, end=' ')
+
+    print()   
 ```
-
-## Sample Output
-![Screenshot (57)](https://github.com/user-attachments/assets/32281bd7-b631-4451-8573-cc9d22da3a4d)
-
+## Output
+![Screenshot (69)](https://github.com/user-attachments/assets/1582dae6-6094-455b-a8fb-9dacd71d8560)
 ## Result
-Thus the program is verified.
+Thus, the required program is written and executed successfully.
+ 
