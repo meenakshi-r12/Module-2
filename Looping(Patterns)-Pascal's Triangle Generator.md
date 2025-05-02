@@ -12,7 +12,7 @@ To print a right-angled triangle pattern of numbers, where each row contains num
    c. After completing the inner loop, move to the next line by using "print()".
 
 3. End of the program.
-## 🧪 Program
+## Program
 ```
 num_rows = int(input())
 
