@@ -1,22 +1,23 @@
-# Lambda Function in Python: Addition of Two Numbers
+# Ex-2C Built-In Funtions & Lambda Function
 
-## 🎯 Aim
-To write a Python program that defines a **lambda function** which takes two arguments `a` and `b`, and returns their sum.
-
-## 🧠 Algorithm
-1. Get two integer inputs from the user.
-2. Use a **lambda function** to define a function `f` that returns `a + b`.
-3. Call the function with the user inputs and print the result.
-
+## Aim
+To write a lambda function which takes z as a parameter and returns z*56 using python.
+## Algorithm
+. Define a lambda function "multiply_by_56" to multiply a number by 56:
+   a. The lambda function takes one argument "z".
+   b. Returns the value of "z * 56".
+2. Read an integer input from the user and store it in the variable "z".
+3. Call the lambda function "multiply_by_56(z)" with the input value "z" and store the result in the variable "result".
+4. Print the value of "result".
+5.	End of the program.
 ## 🧾 Program
 ```
-a=int(input())
-b=int(input())
-add=lambda x,y:x+y
-print(add(a,b))
+multiply_by_56 = lambda z: z * 56
+z = int(input())
+result = multiply_by_56(z)
+print(result)
 ```
 ## Output
-![Screenshot (56)](https://github.com/user-attachments/assets/2374dac8-b364-43c6-85c9-bddf5a3c241b)
-
+![Screenshot (68)](https://github.com/user-attachments/assets/a7db0a98-bf93-452a-82d0-935b488643ea)
 ## Result
-Thus the program is verified.
+Thus, the required program is written and executed successfully.
