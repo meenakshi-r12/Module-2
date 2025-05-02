@@ -1,8 +1,8 @@
 # Ex-2A Iterative statements
 
-## 🎯 Aim
+## Aim
 To write a program in python to find the sum of series 1^1+2^2+3^3... +N^N.
-## 🧠 Algorithm
+## Algorithm
 Read input and convert it to an integer for variable "N".
 2. Define a function "sum_of_series(n)" to compute the sum of the series:
    a. Initialize the variable "total" to 0.
@@ -14,7 +14,7 @@ Read input and convert it to an integer for variable "N".
 4. Print the result in the format:
    "The sum of the series = {result}".
 5. End of the program.
-## 🧾 Program
+## Program
 ```
 def sum_of_series(n):
 
